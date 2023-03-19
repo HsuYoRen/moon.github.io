@@ -201,5 +201,9 @@ color: #fff;
 .icon:hover .fi-br-menu-dots{
     color: rgb(14, 13, 1);
 }
-
+.icon:hover{
+   height: 70px;
+   width: 70px;
+   box-shadow: -3px 3px 3px 0px rgba(66, 44, 104, 0.8);
+}
 

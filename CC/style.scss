@@ -1,3 +1,6 @@
+*{
+    text-decoration: none;
+}
 body{
     background-color: #06151e;
     background-image: url('../../img/bg_star-2.svg');
@@ -66,8 +69,8 @@ body{
     font-family: 'Noto Sans TC', sans-serif;
     box-sizing: border-box;
     padding: 30px;
-    margin-left: 1000px;
-    margin-top: 150px;
+    margin-left: 52%;
+    margin-top: 8%;
 
 }
 .tidetime{
@@ -124,8 +127,8 @@ body{
     letter-spacing: 1px;
 }
 .wrap{
-    margin-top: -360px;
-    margin-left: 1800px;
+    margin-top: -19%;
+    margin-left: 94%;
     color: #fff;
     display: flex;
     flex-direction: column;
@@ -143,9 +146,11 @@ body{
 }
 .icon .fi{
 font-size: 30px;
+color: #fff;
 }
 .icon .txt{
     padding-bottom: 4px;
+    color: #fff;
 }
 .moonimg, .starimg1, .starimg2, .starimg3{
     position: relative;
@@ -157,23 +162,44 @@ font-size: 30px;
     position: absolute;
 }
 
-.moonimg img{
+.txtbox .moonimg img{
     width: 45px;
-    margin-left: 1400px;
-    margin-top: -275px;
+    margin-left: 170px;;
+    margin-top: -220px;
 }
-.starimg1 img{  
+.txtbox .starimg1 img{  
     width: 55px;
-    margin-left: 975px;
-    margin-top: -52px;
+    margin-left:-245px;
+    margin-top: -12px;
 }
-.starimg2 img{   
-    margin-left: 1433px;
-    margin-top: -232px;
+.txtbox .starimg2 img{   
+    margin-left: -220px;
+    margin-top: 25px;
 }
-.starimg3 img{
-    margin-left: 1010px;
-    margin-top: -17px;
+.txtbox .starimg3 img{
+    margin-left: 210px;
+    margin-top: -210px;
+}
+.icon:hover .fi-sr-house-chimney{
+    color: rgb(0, 255, 179);
+}
+.icon:hover .fi-ss-moon{
+    color: rgb(207, 204, 6);
+}
+.icon:hover .fi-sr-brightness{
+    color: rgb(209, 29, 29);
+}
+.icon:hover .fi-sr-star{
+    color: rgb(255, 217, 0);
+}
+.icon:hover .fi-ss-water{
+    color: rgb(27, 178, 238);
+}
+.icon:hover .fi-ss-book{
+    color: rgba(230, 164, 20, 0.863);
+}
+.icon:hover .fi-br-menu-dots{
+    color: rgb(14, 13, 1);
 }
 
 
